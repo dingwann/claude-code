@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle'
+import { feature } from '../shims/bun-bundle-shim'
 import type { BetaMessageStreamParams } from '@anthropic-ai/sdk/resources/beta/messages/messages.mjs'
 import { readdir, readFile, stat } from 'fs/promises'
 import memoize from 'lodash-es/memoize.js'

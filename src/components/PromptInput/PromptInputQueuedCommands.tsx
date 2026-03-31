@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle';
+import { feature } from '../../shims/bun-bundle-shim';
 import * as React from 'react';
 import { useMemo } from 'react';
 import { Box } from 'src/ink.js';

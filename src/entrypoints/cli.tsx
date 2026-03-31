@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle';
+import { feature } from '../shims/bun-bundle-shim';
 
 // Polyfill MACRO globals for development
 if (typeof (globalThis as any).MACRO === 'undefined') {

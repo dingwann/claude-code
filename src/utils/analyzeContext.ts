@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle'
+import { feature } from '../shims/bun-bundle-shim'
 import type { Anthropic } from '@anthropic-ai/sdk'
 import {
   getSystemPrompt,

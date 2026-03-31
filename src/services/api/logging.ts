@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle'
+import { feature } from '../../shims/bun-bundle-shim'
 import { APIError } from '@anthropic-ai/sdk'
 import type {
   BetaStopReason,

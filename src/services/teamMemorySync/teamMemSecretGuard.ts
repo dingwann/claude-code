@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle'
+import { feature } from '../../shims/bun-bundle-shim'
 
 /**
  * Check if a file write/edit to a team memory path contains secrets.

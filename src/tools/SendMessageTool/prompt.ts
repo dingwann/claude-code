@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle'
+import { feature } from '../../shims/bun-bundle-shim'
 
 export const DESCRIPTION = 'Send a message to another agent'
 

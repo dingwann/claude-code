@@ -1,2 +1,9 @@
-// Auto-generated stub
-export default {} as any
+// Stub for connectorText types
+export interface ConnectorTextBlock {
+  type: 'connector_text'
+  text: string
+}
+
+export function isConnectorTextBlock(block: unknown): block is ConnectorTextBlock {
+  return typeof block === 'object' && block !== null && (block as any).type === 'connector_text'
+}

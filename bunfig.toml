@@ -1,0 +1,6 @@
+# Bunfig for running Claude Code from source
+# Overrides bun:bundle with our shim module
+
+[run]
+# Preload our feature flag shim before any module loads
+preload = ["./src/shims/bun-bundle.ts"]

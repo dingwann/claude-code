@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle'
+import { feature } from './shims/bun-bundle-shim'
 import memoize from 'lodash-es/memoize.js'
 import {
   getAdditionalDirectoriesForClaudeMd,

@@ -3,7 +3,7 @@
  * Populated from useCanUseTool.ts and permissions.ts, read from UserToolSuccessMessage.tsx.
  */
 
-import { feature } from 'bun:bundle'
+import { feature } from '../shims/bun-bundle-shim'
 import { createSignal } from './signal.js'
 
 type ClassifierApproval = {

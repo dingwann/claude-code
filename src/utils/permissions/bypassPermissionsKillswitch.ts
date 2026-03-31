@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle'
+import { feature } from '../../shims/bun-bundle-shim'
 import { useEffect, useRef } from 'react'
 import {
   type AppState,

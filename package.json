@@ -3,7 +3,7 @@
   "version": "2.1.88",
   "type": "module",
   "bin": {
-    "claude": "src/entrypoints/cli.tsx"
+    "claude": "dist/cli.js"
   },
   "engines": {
     "node": ">=18.0.0"

@@ -1,4 +1,4 @@
-import { feature } from 'bun:bundle';
+import { feature } from '../../shims/bun-bundle-shim';
 import chalk from 'chalk';
 import * as path from 'path';
 import * as React from 'react';
